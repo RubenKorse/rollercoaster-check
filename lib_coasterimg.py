@@ -1,9 +1,10 @@
 import random
 
+
 def get():
     coasters = [
 
-"""
+        """
   _                     .===.
  |H|        .--.      .:'   `:.
  |H|`.     /||||\     ||     ||
@@ -11,7 +12,7 @@ def get():
  |:`:.--'||||||||||`--..`=:='...                                                      
 """,
 
-"""
+        """
  +   __    ___                    /XXXXX
  |  /XX\  /   \        __        /XXXXXX
  | /XXXX\(     )      /XX\      /xXXXXXX
@@ -19,7 +20,7 @@ def get():
  /XXXXXXXX\__/XXX\__/XXXXXX\__/xXXXXXXXX
  """,
 
- """
+        """
                                            __
                                        _  |  |
                    Yye                |_| |--|
@@ -36,11 +37,10 @@ def get():
  """,
 
     ]
+    return coasters[1]
 
-    return coasters[2]
-
-    #TODO: use random.choice instead
-    #return random.choice(coaster)
+    # TODO: use random.choice instead
+    # return random.choice(coaster)
 
 
 def sad():
